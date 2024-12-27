@@ -1,0 +1,9 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.router-link-exact-active {
+  @apply underline font-semibold transition-all;
+}
